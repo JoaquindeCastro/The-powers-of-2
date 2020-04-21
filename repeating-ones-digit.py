@@ -6,3 +6,5 @@ for n in range (1,50):
   else:
     digits.append(i)
 print(digits)
+print("This has a period of " + str(len(digits)))
+print("This pattern starts at " + str(digits[0]))
